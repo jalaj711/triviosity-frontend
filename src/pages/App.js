@@ -5,6 +5,7 @@ import Question from "./Question/Question.js";
 import Leaderboard from "./Leaderboard/Leaderboard.js";
 import Login from "./Login/Login.js";
 import GameOver from "./GameOver/GameOver.js";
+import RoundOver from "./GameOver/RoundOver.js";
 import Footer from "../components/Footer/Footer.js";
 import Theme from "../pages/Theme.js"
 
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/signin" element={<Login />} />
             <Route path="/game-finished" element={<GameOver />} />
+            <Route path="/round-finished" element={<RoundOver />} />
           </Routes>
           <Footer />
         </div>

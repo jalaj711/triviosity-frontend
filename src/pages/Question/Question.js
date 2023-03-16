@@ -94,6 +94,8 @@ const Question = () => {
           navigate("/?redirected=true");
         } else if (res.gameOver) {
           navigate("/game-finished");
+        } else if (res.roundOver) {
+          navigate("/round-finished");
         } else {
           clearInterval(timer);
           updateHint();

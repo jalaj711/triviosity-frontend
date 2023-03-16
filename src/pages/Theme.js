@@ -27,7 +27,7 @@ const ThemePage = () => {
       .then((res) => res.json())
       .then((res) => {
         setLoaded(true)
-        setGenres([...res.genres, ...res.genres, ...res.genres]);
+        setGenres(res.genres);
       });
   }, [context.token]);
 
