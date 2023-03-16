@@ -21,12 +21,7 @@ const Test = () => {
 
       <div className="main-card">
         <div className="card-1">
-          <Flippy
-            // flipOnHover={true}
-            // flipOnClick={false}
-            flipDirection="horizontal"
-            
-          >
+          <Flippy flipOnHover={true} flipDirection="horizontal">
             <FrontSide>
               <img className="image-1" src={image1}></img>
             </FrontSide>
@@ -34,45 +29,22 @@ const Test = () => {
               <img className="image-1" src={image2}></img>
             </BackSide>
           </Flippy>
-          <p className="p-theme" ref={glitch.ref}>
-            Romance
-          </p>
+          <p className="p-theme">Romance</p>
         </div>
 
         <div className="card-1">
           <img className="image-1" src={image2}></img>
-          <p className="p-theme" ref={glitch.ref}>
-            Sci-Fi
-          </p>
+          <p className="p-theme">Sci-Fi</p>
         </div>
         <div className="card-1">
           <img className="image-1" src={image3}></img>
-          <p className="p-theme" ref={glitch.ref}>
-            Sci-Fi
-          </p>
+          <p className="p-theme">Horror</p>
         </div>
         <div className="card-1">
           <img className="image-1" src={image5}></img>
-          <p className="p-theme" ref={glitch.ref}>
-            Sci-Fi
-          </p>
+          <p className="p-theme">Comedy</p>
         </div>
       </div>
-      {/* <div className="main-card">
-        <div className="card-1">
-          <img className="image-1" src={image3}></img>
-          <p className="p-theme" ref={glitch.ref}>
-            Horror
-          </p>
-        </div>
-
-        <div className="card-1">
-          <img className="image-1" src={image5}></img>
-          <p className="p-theme" ref={glitch.ref}>
-            Comedy
-          </p>
-        </div>
-      </div> */}
     </div>
   );
 };
