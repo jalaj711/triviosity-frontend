@@ -1,7 +1,6 @@
 import React from "react";
 import "./Theme.css";
 import { useRef } from "react";
-import Flippy, { FrontSide, BackSide } from "react-flippy";
 
 import image from "../w1.jpg";
 import image1 from "../w2.jpg";
@@ -21,14 +20,8 @@ const Test = () => {
 
       <div className="main-card">
         <div className="card-1">
-          <Flippy flipOnHover={true} flipDirection="horizontal">
-            <FrontSide>
-              <img className="image-1" src={image1}></img>
-            </FrontSide>
-            <BackSide>
-              <img className="image-1" src={image2}></img>
-            </BackSide>
-          </Flippy>
+          <img className="image-1" src={image1}></img>
+
           <p className="p-theme">Romance</p>
         </div>
 
