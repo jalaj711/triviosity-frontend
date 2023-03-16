@@ -2,7 +2,7 @@
   width: 100%;
   height: 4rem;
   display: flex;
-  background-color: #564f2163;
+  background-color: var(--navbar-bg);
   justify-content: space-between;
   font-family: "Orbitron", sans-serif;
   font-size: -0.3rem;
@@ -14,18 +14,18 @@
   backdrop-filter: blur(4px);
 }
 .rules {
-  color: #ffeeaf;
+  color: var(--font-color);
   cursor: pointer;
 }
 .rules:hover {
-  color: #adff2f;
+  color: var(--hover-font-color);
 }
 a:hover {
-  color: #adff2f;
+  color: var(--hover-font-color);
 }
 .mobile-nav {
   display: flex;
-  color: #afd5ed;
+  color: var(--font-color);
   font-family: "Iceland", cursive;
   justify-content: center;
   align-items: center;
@@ -38,9 +38,9 @@ a:hover {
 .si {
   font-family: "Orbitron", sans-serif;
   padding: 9px 29px;
-  background: rgba(152, 92, 9, 0.453);
-  border: 2px solid #b97c58;
-  box-shadow: 0px 0px 4px #da9865;
+  background: var(--button-background-signin);
+  border: 2px solid var(--button-border);
+  box-shadow: 0px 0px 4px var(--box-shadow-color);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   font-style: normal;
@@ -65,9 +65,9 @@ a:hover {
   font-size: 24px;
 }
 .si:hover {
-  box-shadow: 0px 0px 4px #c9fd7b;
-  border: 2px solid #c9fd7b;
-  color: #adff2f;
+  box-shadow: 0px 0px 4px var(--hover-color-secondary);
+  border: 2px solid var(--hover-color-secondary);
+  color: var(--hover-font-color);
 }
 .open {
   height: 2rem;
@@ -79,7 +79,7 @@ a:hover {
   visibility: hidden;
 }
 .open:hover {
-  color: #adff2f;
+  color: var(--hover-font-color);
 }
 
 @media screen and (min-width: 750px) {
@@ -127,7 +127,7 @@ a:hover {
   }
 }
 .button {
-  color: #ffeeaf;
+  color: var(--font-color);
   padding: 24px;
   font-size: 24px;
   /* align-self: flex-start;

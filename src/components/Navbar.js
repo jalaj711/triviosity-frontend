@@ -88,7 +88,7 @@ const Navbar = (props) => {
         <div className="middle">
           <div className="home vanish">
             <ul>
-              <Link className="button" to="/question">
+              <Link className="button" to="/theme">
                 Play
               </Link>
             </ul>

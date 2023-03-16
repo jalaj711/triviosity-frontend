@@ -15,17 +15,16 @@
     height: 100vh;
     top: 0;
     transition: all 0.5s;
-    backdrop-filter: blur(12px);
-    background-color: #d9a71055;
+    background-color: var(--navbar-bg);
     /* background-color: #adff2f; */
     font-family: "Orbitron", sans-serif;
-    box-shadow: 0px 0px 4px #daa565;
+    box-shadow: 0px 0px 4px var(--box-shadow-color);
     width: 70%;
 }
 
 .navbar_collapse_hide {
-    background-color: #054b62c8;
-    box-shadow: 0px 0px 4px #d9a71055;
+    background-color: var(--navbar-bg);
+    box-shadow: 0px 0px 4px var(--box-shadow-color);
     font-family: "Orbitron", sans-serif;
     color: #ffffff;
     height: 100vh;
@@ -34,7 +33,7 @@
     top: 0;
     transform: translateX(-100%);
     transition: all 0.5s;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
 }
 
 .nav {
@@ -53,14 +52,14 @@
 }
 
 .nav p:hover {
-    color: #adff2f;
+    color: var(--hover-font-color);
     cursor: pointer;
 }
 
 .link, .Rules {
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    color: #f9e587;
+    color: var(--font-color);
     /* font-weight: bold; */
 }
 .close {
@@ -70,12 +69,12 @@
 .close_btn {
     background: none;
     border: none;
-    color: #7e3704;
+    color: var(--font-color);
     float: right;
     margin: 24px;
 }
 
 .close_btn:hover {
-    color: #adff2f;
+    color: var(--hover-font-color);
 
 }

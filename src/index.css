@@ -1,3 +1,13 @@
+:root {
+  --navbar-bg: #564f2163;
+  --font-color: #ffeeaf;
+  --hover-font-color: #adff2f;
+  --hover-color-secondary: #da9865;
+  --button-background-signin: rgba(152, 92, 9, 0.453);
+  --button-border: #b97c58;
+  --box-shadow-color: #da9865;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

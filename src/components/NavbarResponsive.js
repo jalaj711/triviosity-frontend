@@ -49,7 +49,7 @@ const NavbarResponsive = (props) => {
         </button>
         <div className="nav-wrapper">
           <div className="nav">
-            <Link to="/question" className="link" onClick={props.hideNav}>
+            <Link to="/theme" className="link" onClick={props.hideNav}>
               PLAY
             </Link>
             <a
