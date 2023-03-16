@@ -10,7 +10,9 @@ const ENDPOINTS = {
     CLUE: BASE_URL + '/api/clue/',
     SOCIAL_LOGIN_TOKEN: BASE_URL + '/api/accounts/get-social-token/',
     LEADERBOARD: BASE_URL + '/api/leaderboard/',
-    CHECK_GAME_LIVE: BASE_URL + '/api/check-game-live/'
+    CHECK_GAME_LIVE: BASE_URL + '/api/check-game-live/',
+    LIST_GENRES: BASE_URL + '/api/list-genres/',
+    SET_GENRES: BASE_URL + '/api/set-genre/'
 }
 
 export default ENDPOINTS;
