@@ -1,7 +1,7 @@
 import React from "react";
 import "./Theme.css";
 import { useRef } from "react";
-
+import VanillaTilt from "vanilla-tilt";
 import image from "../w1.jpg";
 import image1 from "../w2.jpg";
 import image2 from "../w3.jpg";
@@ -9,6 +9,7 @@ import image3 from "../w4.jpg";
 import image5 from "../w5.jpg";
 
 import { useGlitch } from "react-powerglitch";
+
 
 const Test = () => {
   const glitch = useGlitch();
