@@ -21,7 +21,7 @@
   min-width: 60vw;
   max-width: 70vw;
   padding: 0 30px;
-  background: rgba(3, 61, 80, 0.4);
+  background: rgba(3, 61, 80, 0.4) (--navbar-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,7 +39,7 @@
 .answer {
   width: 90%;
   height: 3rem;
-  background: rgba(116, 160, 192, 0.6);
+  background: rgba(192, 173, 116, 0.6) ;
   border: none;
   border-bottom: 4px solid var(--button-border);
   border-top: 4px solid transparent;
@@ -124,6 +124,7 @@
   background: var(--button-border);
   height: fit-content;
   margin-top: 1rem;
+  
 }
 
 .submit {
@@ -169,7 +170,7 @@ button {
   border: none;
   font-size: 1.5rem;
   color: white;
-  background-color: rgb(15, 93, 120);
+  background-color: rgba(123, 97, 5, 0.204);
   padding: 5px;
   padding-right: 43px;
   padding-left: 27px;
