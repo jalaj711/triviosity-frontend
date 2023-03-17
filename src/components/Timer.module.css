@@ -6,9 +6,9 @@
   font-family: "Iceland", cursive;
   text-align: center;
   letter-spacing: 0.1rem;
-  text-shadow: 0 0 10px var(--box-shadow-color), 0 0 20px var(--box-shadow-color);
+  text-shadow: 0 0 10px rgb(30, 18, 3), 0 0 20px rgb(40, 24, 5);
   font-size: 4rem;
-  color: #090123;
+  color: rgb(233, 129, 10);
   opacity: 0.9;
   font-weight: bold;
 }
