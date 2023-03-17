@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./Theme.css";
-import Flippy, { FrontSide, BackSide } from "react-flippy";
+
 import useContext from "../utils/Context";
 import endpoints from "../utils/APIendpoints";
 import { useNavigate } from "react-router-dom";
 
 import { useGlitch } from "react-powerglitch";
 import { ColorRing } from "react-loader-spinner";
+
+  
 
 const ThemePage = () => {
   const glitch = useGlitch();
@@ -72,14 +74,8 @@ const ThemePage = () => {
                   setUserGenre(elem.id);
                 }}
               >
-                <Flippy flipOnHover={true} flipDirection="horizontal">
-                  <FrontSide>
-                    <img className="image-1" src={elem.theme_pic} alt="" />
-                  </FrontSide>
-                  <BackSide>
-                    <img className="image-1" src={elem.theme_pic} alt="" />
-                  </BackSide>
-                </Flippy>
+                <img className="image-1" src={elem.theme_pic} alt="" />
+
                 <p className="p-theme">{elem.name}</p>
               </div>
             );

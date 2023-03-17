@@ -38,8 +38,17 @@ const Leaderboard = () => {
     <>
       <div className="leaderboardItems">
         <h1 className="leaderboardHeader" data-text="Leaderboard"><span>Leaderboard</span></h1>
+        <Score
+                className="score"
+                name="ayush"
+                score="20"
+                avatar="../"
+                rank="3"
+                key="5"
+              />
         {leaderboard.length !== 0 ? (
           <>
+          
             {leaderboard.map((elem, index) => (
               <Score
                 className="score"
