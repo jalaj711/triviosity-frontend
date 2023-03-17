@@ -37,6 +37,7 @@ const Leaderboard = () => {
   return (
     <>
       <div className="leaderboardItems">
+        
         <h1 className="leaderboardHeader" data-text="Leaderboard"><span>Leaderboard</span></h1>
         {/* <Score
                 className="score"

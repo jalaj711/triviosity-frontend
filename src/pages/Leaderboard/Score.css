@@ -18,6 +18,7 @@
     width: 60%;
     margin-top: 1rem;
     backdrop-filter: blur(8px);
+    letter-spacing: 4px;
 }
 
 .score-avatar {
