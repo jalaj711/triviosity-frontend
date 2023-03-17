@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid #58a1b9;
+    border: 3px solid var(--button-border);
     backdrop-filter: blur(16px);
     border-radius: 0px 12px;
     font-family: "Orbitron";
@@ -27,7 +27,7 @@
     font-family: "Orbitron", sans-serif;
     padding: 9px 29px;
     background: rgba(3, 61, 80, 0.4);
-    border: 2px solid #58a1b9;
+    border: 2px solid var(--button-border);
     box-shadow: 0px 0px 4px #65beda;
     backdrop-filter: blur(12px);
     font-style: normal;

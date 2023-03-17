@@ -6,7 +6,7 @@
   font-family: "Iceland", cursive;
   text-align: center;
   letter-spacing: 0.1rem;
-  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff;
+  text-shadow: 0 0 10px var(--box-shadow-color), 0 0 20px var(--box-shadow-color);
   font-size: 4rem;
   color: #090123;
   opacity: 0.9;

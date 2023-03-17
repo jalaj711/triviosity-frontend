@@ -18,8 +18,8 @@
   font-family: "Orbitron", sans-serif;
   font-size: 2.5rem;
   margin: auto;
-  color: #afecff;
-  text-shadow: 0 0 5px #afecff;
+  color: var(--font-color);
+  text-shadow: 0 0 5px var(--font-color);
   margin-top: 104px;
   display: flex;
 }
@@ -71,7 +71,7 @@ a {
   max-width: 40%;
   padding: 30px;
   background: rgba(3, 61, 80, 0.7);
-  border: 3px solid #58a1b9;
+  border: 3px solid var(--button-border);
   backdrop-filter: blur(16px);
   border-radius: 0px 12px;
   text-shadow: 0 0 4px #00ff00, 0 0 12px #00ff00;
@@ -137,7 +137,7 @@ a {
   backdrop-filter: blur(8px);
   background: rgba(3, 61, 80, 0.4);
   box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff;
-  border: 2px solid #58a1b9;
+  border: 2px solid var(--button-border);
   display: flex;
   align-items: center;
   justify-content: center;
