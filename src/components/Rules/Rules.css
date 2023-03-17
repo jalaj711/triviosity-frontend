@@ -15,9 +15,11 @@
     font-family: "Orbitron";
     font-style: normal;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
     color: #ffffff;
     letter-spacing: 0.1rem;
+    
+    
 }
 
 @media screen and (max-width: 550px) {

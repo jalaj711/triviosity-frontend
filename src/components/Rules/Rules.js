@@ -23,6 +23,7 @@ const Rules = (props) => {
               {" "}
             </p>
             <p>3-No negative scoring for wrong answers. This means you can try any question for an unlimited number of times</p>
+            <p>4-Each Day has a specific theme .</p>
           </div>
         </div>
       </div>
