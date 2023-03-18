@@ -1,6 +1,6 @@
 .modal {
-  background: rgba(3, 61, 80, 1);
-  border: 3px solid #58a1b9;
+  background: var(--navbar-bg);
+  border: 3px solid var(--button-border);
   backdrop-filter: blur(16px);
   border-radius: 24px;
   align-items: center;

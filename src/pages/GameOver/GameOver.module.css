@@ -11,7 +11,7 @@
     width: fit-content;
     min-width: 60vw;
     padding: 30px;
-    background: rgba(3, 61, 80, 0.4);
+    background: var(--navbar-bg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,14 +26,14 @@
   .btn {
     font-family: "Orbitron", sans-serif;
     padding: 9px 29px;
-    background: rgba(3, 61, 80, 0.4);
+    background: var(--navbar-bg);
     border: 2px solid var(--button-border);
     box-shadow: 0px 0px 4px #65beda;
     backdrop-filter: blur(12px);
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
-    color: #7bdaf9;
+    color: #f9a70b;
     margin-right: 10px;
     width: fit-content;
     margin: 12px;
