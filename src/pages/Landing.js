@@ -55,7 +55,7 @@ const Landing = () => {
             .then((res) => {
               // setMessage("Logged in succesfully. Redirecting...");
               context.login(res.token);
-              navigate("/question");
+              navigate("/theme");
             })
             .catch((err) => console.error(err));
         });
@@ -77,7 +77,7 @@ const Landing = () => {
         {context.token || localStorage.getItem("fictionary_frontend") ? (
           gameLive.game_live ? (
             <div className="play_now">
-              <Link to="/question" className="play">
+              <Link to="/theme" className="play">
                 PLAY NOW
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
