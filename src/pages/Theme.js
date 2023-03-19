@@ -8,8 +8,6 @@ import { useNavigate } from "react-router-dom";
 import { useGlitch } from "react-powerglitch";
 import { ColorRing } from "react-loader-spinner";
 
-  
-
 const ThemePage = () => {
   const glitch = useGlitch();
   const [loaded, setLoaded] = useState(false);
@@ -25,9 +23,12 @@ const ThemePage = () => {
           context.token || localStorage.getItem("fictionary_token")
         }`,
       },
-    })
-      .then((res) => res.json())
-      .then((res) => {
+    }).then((res) => {
+      if (res.status === 401) {
+        context.logout();
+        navigate("/signin?redirected=true");
+      }
+      res.json().then((res) => {
         if (res.game_not_live) {
           navigate("/?redirected=true");
         } else if (res.gameOver) {
@@ -37,6 +38,8 @@ const ThemePage = () => {
           setGenres(res.genres);
         }
       });
+    });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [context.token]);
 
   const setUserGenre = (genre_id) => {

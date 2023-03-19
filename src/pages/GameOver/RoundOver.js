@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "./GameOver.module.css";
 import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
   const navigate = useNavigate();
-  const [message, setMessage] = useState();
 
   return (
     <div className={styles.container}>
