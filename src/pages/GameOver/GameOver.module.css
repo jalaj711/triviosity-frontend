@@ -28,7 +28,7 @@
     padding: 9px 29px;
     background: var(--navbar-bg);
     border: 2px solid var(--button-border);
-    box-shadow: 0px 0px 4px #65beda;
+    box-shadow: 0px 0px 4px var(--button-border);
     backdrop-filter: blur(12px);
     font-style: normal;
     font-weight: 400;

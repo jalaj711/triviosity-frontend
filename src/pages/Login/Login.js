@@ -5,14 +5,6 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "../../utils/Context";
 import { useGoogleLogin } from "@react-oauth/google";
 
-export const handleGoogleLogin = () => {
-  const form = document.createElement("form");
-  form.method = "POST";
-  form.action = endpoints.GOOGLE_LOGIN;
-  document.body.appendChild(form);
-  form.submit();
-};
-
 const Login = () => {
   const navigate = useNavigate();
   const context = useContext();

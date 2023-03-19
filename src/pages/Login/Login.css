@@ -27,8 +27,8 @@
   font-family: "Orbitron", sans-serif;
   padding: 9px 29px;
   background: rgba(80, 56, 3, 0.4);
-  border: 2px solid #000000;
-  box-shadow: 0px 0px 4px #000000;
+  border: 2px solid var(--button-border);
+  box-shadow: 0px 0px 4px var(--button-border);
   backdrop-filter: blur(12px);
   font-style: normal;
   font-weight: 400;
