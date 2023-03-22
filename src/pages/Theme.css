@@ -29,8 +29,37 @@
   color: #e7bd32;
   font-weight: bold;
   margin: 0;
- text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px #ff1500;;
+ text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px #ff1500;
 }
+
+.p-theme-2 {
+  font-size: 1rem;
+  font-family: "Iceland";
+  min-width: fit-content;
+  color: #e7bd32;
+  margin: 0;
+}
+
+.inactive-card {
+  position: relative;
+}
+
+.inactive-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 16px;
+  width: 15.4vw;
+  height: 22vw;
+  background-color: #000a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+}
+
 .main-card {
   display: flex;
   flex-direction: row;
@@ -54,7 +83,7 @@
     display: flex;
     flex-direction: column;
   }
-  .image-1 {
+  .image-1, .inactive-card-overlay {
     width: 42vw;
     height: 60vw;
     margin-top: 24px;
@@ -66,5 +95,73 @@
   .p-theme {
     font-size: 2.5rem;
     margin-top: 5px;
+  }
+}
+
+.timer-clock {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Iceland", cursive;
+  text-align: center;
+  text-shadow: 0 0 4px rgb(30, 18, 3), 0 0 12px rgb(40, 24, 5);
+  font-size: 1rem;
+  color: rgb(233, 129, 10);
+  font-weight: bold;
+}
+.timer-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-element p {
+  margin: 0;
+}
+
+.timer-element span {
+  font-size: 0.4rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px){
+  .timer-clock{
+    color: rgb(233, 129, 10);
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(30, 18, 3), 0 0 20px rgb(40, 24, 5);
+    
+  }
+  .timer-element span{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 650px){
+  .timer-clock{
+    color: rgb(233, 129, 10);
+     font-size: 12px;
+     font-weight: bold;
+     text-shadow: 0 0 10px rgb(30, 18, 3), 0 0 20px rgb(40, 24, 5);
+  }
+}
+@media screen and (max-width: 1000px){
+
+  .timer-clock{
+    color: rgb(233, 129, 10);
+     font-size: 12px;
+     font-weight: bold;
+     text-shadow: 0 0 10px rgb(30, 18, 3), 0 0 20px rgb(40, 24, 5);
+  }
+}
+@media screen and (max-width: 330px) {
+
+  .timer-clock{
+    color: rgb(233, 129, 10);
+     font-size: 12px;
+     font-weight: bold;
+     text-shadow: 0 0 10px rgb(30, 18, 3), 0 0 20px rgb(40, 24, 5);
+
   }
 }
